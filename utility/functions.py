@@ -11,14 +11,14 @@ def calculate_working_days(dataframe):
     df_holiday = pd.read_excel("store/input/MOM_PublicHoliday.xlsx")
 
     # create a column for the dataframe to store the calculated 'working_day' for each month by intializing the value as 0 
-    # TODO: write your code here
+    # TODO: write your code here hello
 
     # iterate through the input dataframe to calculate the 'working_day' for each month
     # remove the public holidays from all the weekdays for each month of the year 
     for index, row in dataframe.iterrows():
 
         # retrieve the 'date' from the current row
-        month = # TODO: write your code herea
+        month = # TODO: write your code here
 
         # set the 'start_date' to the first day of the month extracted from 'month'
         start_date = # TODO: write your code here
